@@ -1,0 +1,12 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 7d7f2ce..44186e6 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -1,6 +1,6 @@
+ # Preamble ####################################################################
+ #
+-cmake_minimum_required(VERSION 3.12.0)
++cmake_minimum_required(VERSION 3.11.4)
+ 
+ project(openPMD VERSION 0.12.0) # LANGUAGES CXX
+ 

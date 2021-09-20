@@ -1,0 +1,45 @@
+BasedOnStyle: LLVM
+IndentWidth: 8
+#UseTab: UT_AlignWithSpaces # available in release later than 9
+#UseTab: ForContinuationAndIndentation
+UseTab: ForIndentation
+BreakBeforeBraces: Custom
+BraceWrapping:
+	AfterNamespace: false
+AllowShortIfStatementsOnASingleLine: false
+IndentCaseLabels: false
+#ColumnLimit: 110
+ColumnLimit: 100
+
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: false
+AccessModifierOffset: -8 # It has to be equal to the tab size
+NamespaceIndentation: None
+PointerAlignment: Left
+AlwaysBreakAfterReturnType: None
+
+SortIncludes: false
+
+
+#AlwaysBreakAfterReturnType: All
+AlwaysBreakAfterReturnType: TopLevel
+BreakConstructorInitializers: AfterColon
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+SpaceBeforeCtorInitializerColon: false
+BinPackParameters: true
+BinPackArguments: true
+AllowAllArgumentsOnNextLine: true
+
+AllowShortBlocksOnASingleLine: true
+AllowShortFunctionsOnASingleLine: All
+AllowShortIfStatementsOnASingleLine: Always
+PenaltyReturnTypeOnItsOwnLine: 0
+
+AlignEscapedNewlines: Left
+
+ContinuationIndentWidth: 8
+# Comments
+#SpacesBeforeTrailingComments: 2
+AlignTrailingComments: true
+ReflowComments: true
+
